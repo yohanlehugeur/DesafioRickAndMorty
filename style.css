@@ -1,0 +1,57 @@
+main{
+	margin-top: 60px;
+	padding: 100px;
+}
+
+div h2{
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.img-screen{
+	position: relative;
+	width: 100%;
+}
+
+.coluna-personagem{
+	border: 2px solid #000000;
+	margin: 0 10px;
+	border-radius: 10px;
+
+}
+
+.coluna-personagem:hover{
+	border-color: blue;
+	color: darkred
+}
+
+.img-personagem{
+	width: 250px;
+	height: 299px;
+	position: relative;
+	left: 30%;
+}
+
+.descricao{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nome-personagem{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px
+}
+
+.txt-personagem{
+	text-align: center;
+
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
